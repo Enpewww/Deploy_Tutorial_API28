@@ -99,4 +99,3 @@ def readSecret(password: str = Header(None)):
     
     # output
     return df_income.to_dict(orient="records")
-
